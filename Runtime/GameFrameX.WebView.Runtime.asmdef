@@ -1,0 +1,25 @@
+{
+    "name": "GameFrameX.WebView.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "UnityEditor.UI",
+        "UnityEngine.UI",
+        "GameFrameX.Runtime",
+        "GameFrameX.Event.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.xr.management",
+            "expression": "",
+            "define": "ENABLE_XR_MANAGEMENT"
+        }
+    ],
+    "noEngineReferences": false
+}
