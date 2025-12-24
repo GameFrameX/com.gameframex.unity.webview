@@ -10,7 +10,7 @@
   ],
   "repository": {
     "name": "com.gameframex.unity.webview",
-    "url": "https://github.com/gameframex/com.gameframex.unity.webview.git",
+    "url": "git+https://github.com/gameframex/com.gameframex.unity.webview.git",
     "type": "git"
   },
   "author": {
