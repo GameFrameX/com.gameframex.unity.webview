@@ -1,32 +1,41 @@
+<div align="center">
+
+<img src="https://download.alianblank.com/gameframex/gameframex_logo_320.png" alt="GameFrameX Logo" width="160" height="160" />
+
 # Game Frame X Web View
 
-## 介绍
+[![License](https://img.shields.io/github/license/GameFrameX/com.gameframex.unity.webview)](https://github.com/GameFrameX/com.gameframex.unity.webview/blob/main/LICENSE.md)
+[![Version](https://img.shields.io/github/v/release/GameFrameX/com.gameframex.unity.webview)](https://github.com/GameFrameX/com.gameframex.unity.webview/releases)
 
-`Game Frame X Web View` 是一个为 [Game Frame X](https://gameframex.doc.alianblank.com) 游戏框架提供的 Web View 组件。它允许您在 Unity 游戏中嵌入和显示 Web 内容。
+All-in-One Solution for Indie Game Development · Empowering Indie Developers' Dreams
 
-本组件是对 [gree/unity-webview](https://github.com/gree/unity-webview) 的封装，提供了更简洁的 API 和更方便的集成方式。
+[Documentation](https://gameframex.doc.alianblank.com) | [Quick Start](https://gameframex.doc.alianblank.com) | [QQ Group](https://qm.qq.com/q/urKenB9AU)
 
-## 功能
+**English** | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md)
 
-*   在 Unity 游戏中显示 Web 页面
-*   通过 C# 与 JavaScript 进行交互
-*   支持全屏显示
-*   支持 Android 和 iOS 平台
+</div>
 
-## 安装
+## Project Overview
 
-1.  在 Unity 编辑器中打开 `Package Manager`
-2.  点击 `+` 号, 选择 `Add package from git URL...`
-3.  输入 `https://github.com/gameframex/com.gameframex.unity.webview.git`
-4.  点击 `Add`
+`Game Frame X Web View` is a Web View component for the [Game Frame X](https://gameframex.doc.alianblank.com) game framework. It allows you to embed and display web content within Unity games.
 
-## 如何使用
+This component wraps [gree/unity-webview](https://github.com/gree/unity-webview), providing a simpler API and easier integration.
 
-1.  在您的场景中创建一个新的空 `GameObject`
-2.  将 `WebViewComponent` 附加到该 `GameObject`
-3.  在 `Inspector` 视图中，为 `WebViewComponent` 选择一个 `IWebViewManager` 的实现。默认情况下，框架会自动根据平台选择合适的实现。
-4.  在您的代码中获取 `WebViewComponent` 的实例
-5.  调用 `Show(url)` 方法来显示一个 Web 页面
+## Features
+
+- Display web pages within Unity games
+- Interact between C# and JavaScript
+- Fullscreen support
+- Android and iOS platform support
+
+## Installation
+
+1. Open `Package Manager` in Unity Editor
+2. Click `+` and select `Add package from git URL...`
+3. Enter `https://github.com/gameframex/com.gameframex.unity.webview.git`
+4. Click `Add`
+
+## Usage
 
 ```csharp
 using GameFrameX.WebView.Runtime;
@@ -44,26 +53,11 @@ public class Example : MonoBehaviour
 
 ## API
 
-### `void Show(string url)`
+- `Show(string url)` - Display a web view and load the specified URL
+- `Hide()` - Hide the web view
+- `MakeFullScreen()` - Set the web view to fullscreen
+- `ExecuteJavaScript(string javaScript)` - Execute JavaScript code
 
-显示一个 Web 视图并加载指定的 URL。
+## License
 
-### `void Hide()`
-
-隐藏 Web 视图。
-
-### `void MakeFullScreen()`
-
-将 Web 视图设置为全屏。
-
-### `void ExecuteJavaScript(string javaScript)`
-
-在当前加载的 Web 页面上执行 JavaScript 代码。
-
-## 贡献
-
-欢迎通过 Pull Request 或 Issue 为本项目做出贡献。
-
-## 许可证
-
-本仓库遵循 [MIT](LICENSE) 许可证。
+This repository is licensed under the [MIT](LICENSE) License.
