@@ -27,7 +27,9 @@
 
 本組件是對 [gree/unity-webview](https://github.com/gree/unity-webview) 的封裝，提供了更簡潔的 API 和更方便的集成方式。
 
-## 安裝
+## 快速開始
+
+### 安裝
 
 ### 安裝
 
@@ -60,6 +62,23 @@ Then add the package to `dependencies`:
 ```
 
 
+## 依賴
+
+| 套件 | 說明 |
+|------|------|
+| `com.gameframex.unity` | 1.0.0 |
+
+## 文檔與資源
+
+- [官方文檔](https://gameframex.doc.alianblank.com)
+
+## 社區與支援
+
+- QQ群: 467608841 / 233840761
+
+## 更新日誌
+
+查看 [Releases](https://github.com/GameFrameX/gameframex/com.gameframex.unity.webview/releases) 了解更新日誌。
 ## 開源協議
 
 本倉庫遵循 [MIT](LICENSE) 許可證。

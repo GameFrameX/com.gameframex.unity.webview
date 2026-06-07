@@ -25,7 +25,9 @@
 
 `Game Frame X Web View`는 [Game Frame X](https://gameframex.doc.alianblank.com) 게임 프레임워크를 위한 Web View 컴포넌트입니다. Unity 게임 내에 웹 콘텐츠를 임베드하여 표시할 수 있습니다.
 
-## 설치
+## 빠른 시작
+
+### 설치
 
 ### 설치
 
@@ -58,6 +60,23 @@ Then add the package to `dependencies`:
 ```
 
 
+## 의존성
+
+| 패키지 | 설명 |
+|--------|------|
+| `com.gameframex.unity` | 1.0.0 |
+
+## 문서 및 자료
+
+- [문서](https://gameframex.doc.alianblank.com)
+
+## 커뮤니티 및 지원
+
+- QQ 그룹: 467608841 / 233840761
+
+## 변경 로그
+
+[Releases](https://github.com/GameFrameX/gameframex/com.gameframex.unity.webview/releases)에서 변경 로그를 확인하세요.
 ## 라이선스
 
 이 저장소는 [MIT](LICENSE) 라이선스에 따라 배포됩니다.

@@ -34,7 +34,9 @@ This component wraps [gree/unity-webview](https://github.com/gree/unity-webview)
 - Fullscreen support
 - Android and iOS platform support
 
-## Installation
+## Quick Start
+
+### Installation
 
 ### Installation
 
@@ -67,7 +69,7 @@ Then add the package to `dependencies`:
 ```
 
 
-## Usage
+## Usage Examples
 
 ```csharp
 using GameFrameX.WebView.Runtime;
@@ -90,6 +92,24 @@ public class Example : MonoBehaviour
 - `MakeFullScreen()` - Set the web view to fullscreen
 - `ExecuteJavaScript(string javaScript)` - Execute JavaScript code
 
+
+## Dependencies
+
+| Package | Description |
+|---------|-------------|
+| `com.gameframex.unity` | 1.0.0 |
+
+## Documentation & Resources
+
+- [Documentation](https://gameframex.doc.alianblank.com)
+
+## Community & Support
+
+- QQ Group: 467608841 / 233840761
+
+## Changelog
+
+See [Releases](https://github.com/GameFrameX/gameframex/com.gameframex.unity.webview/releases) for changelog.
 ## License
 
 This repository is licensed under the [MIT](LICENSE) License.

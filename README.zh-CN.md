@@ -34,7 +34,9 @@
 - 支持全屏显示
 - 支持 Android 和 iOS 平台
 
-## 安装
+## 快速开始
+
+### 安装
 
 ### 安装
 
@@ -67,7 +69,7 @@ Then add the package to `dependencies`:
 ```
 
 
-## 使用说明
+## 使用示例
 
 ```csharp
 using GameFrameX.WebView.Runtime;
@@ -90,6 +92,24 @@ public class Example : MonoBehaviour
 - `MakeFullScreen()` - 将 Web 视图设置为全屏
 - `ExecuteJavaScript(string javaScript)` - 执行 JavaScript 代码
 
+
+## 依赖
+
+| 包 | 说明 |
+|----|------|
+| `com.gameframex.unity` | 1.0.0 |
+
+## 文档与资源
+
+- [官方文档](https://gameframex.doc.alianblank.com)
+
+## 社区与支持
+
+- QQ群: 467608841 / 233840761
+
+## 更新日志
+
+查看 [Releases](https://github.com/GameFrameX/gameframex/com.gameframex.unity.webview/releases) 了解更新日志。
 ## 开源协议
 
 本仓库遵循 [MIT](LICENSE) 许可证。
