@@ -27,10 +27,36 @@
 
 ## 설치
 
-1. Unity 에디터에서 `Package Manager` 열기
-2. `+` 클릭 후 `Add package from git URL...` 선택
-3. `https://github.com/gameframex/com.gameframex.unity.webview.git` 입력
-4. `Add` 클릭
+### 설치
+
+Unity 프로젝트의 `Packages/manifest.json`을 편집하여 `scopedRegistries` 섹션을 추가하세요:
+
+```json
+{
+  "scopedRegistries": [
+    {
+      "name": "GameFrameX",
+      "url": "https://gameframex.upm.alianblank.uk",
+      "scopes": [
+        "com.gameframex"
+      ]
+    }
+  ]
+}
+```
+
+`scopes`는 이 레지스트리를 통해 어떤 패키지를 해석할지 제어합니다. `com.gameframex`로 시작하는 패키지만 이 레지스트리에서 가져옵니다.
+
+Then add the package to `dependencies`:
+
+```json
+{
+  "dependencies": {
+    "com.gameframex.unity.webview": "1.0.0"
+  }
+}
+```
+
 
 ## 라이선스
 

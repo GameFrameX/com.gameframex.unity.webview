@@ -36,10 +36,36 @@
 
 ## 安装
 
-1. 在 Unity 编辑器中打开 `Package Manager`
-2. 点击 `+` 号，选择 `Add package from git URL...`
-3. 输入 `https://github.com/gameframex/com.gameframex.unity.webview.git`
-4. 点击 `Add`
+### 安装
+
+编辑 Unity 项目的 `Packages/manifest.json`，添加 `scopedRegistries` 部分：
+
+```json
+{
+  "scopedRegistries": [
+    {
+      "name": "GameFrameX",
+      "url": "https://gameframex.upm.alianblank.uk",
+      "scopes": [
+        "com.gameframex"
+      ]
+    }
+  ]
+}
+```
+
+`scopes` 控制哪些包通过此注册表解析。只有以 `com.gameframex` 开头的包才会从这个注册表获取。
+
+Then add the package to `dependencies`:
+
+```json
+{
+  "dependencies": {
+    "com.gameframex.unity.webview": "1.0.0"
+  }
+}
+```
+
 
 ## 使用说明
 

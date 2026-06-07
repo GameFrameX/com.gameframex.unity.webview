@@ -36,10 +36,36 @@ This component wraps [gree/unity-webview](https://github.com/gree/unity-webview)
 
 ## Installation
 
-1. Open `Package Manager` in Unity Editor
-2. Click `+` and select `Add package from git URL...`
-3. Enter `https://github.com/gameframex/com.gameframex.unity.webview.git`
-4. Click `Add`
+### Installation
+
+Edit your Unity project's `Packages/manifest.json` and add the `scopedRegistries` section:
+
+```json
+{
+  "scopedRegistries": [
+    {
+      "name": "GameFrameX",
+      "url": "https://gameframex.upm.alianblank.uk",
+      "scopes": [
+        "com.gameframex"
+      ]
+    }
+  ]
+}
+```
+
+`scopes` controls which packages are resolved through this registry. Only packages whose names start with `com.gameframex` will be fetched from it.
+
+Then add the package to `dependencies`:
+
+```json
+{
+  "dependencies": {
+    "com.gameframex.unity.webview": "1.0.0"
+  }
+}
+```
+
 
 ## Usage
 
