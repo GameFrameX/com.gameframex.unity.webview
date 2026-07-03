@@ -1,3 +1,11 @@
+## [1.0.2](https://github.com/gameframex/com.gameframex.unity.webview/compare/1.0.1...1.0.2) (2026-07-03)
+
+
+### Bug Fixes
+
+* **webview:** 添加 Preserve 特性防止 IL2CPP 裁剪 ([5484eef](https://github.com/gameframex/com.gameframex.unity.webview/commit/5484eef890d8c2d027b86d19f082ba42c1c235d4))
+* **webview:** 组件未就绪时提前返回避免空引用 ([46e3b12](https://github.com/gameframex/com.gameframex.unity.webview/commit/46e3b12fbb0ada548379667272f54caecff4f831))
+
 ## [1.0.1](https://github.com/gameframex/com.gameframex.unity.webview/compare/1.0.0...1.0.1) (2026-06-07)
 
 
