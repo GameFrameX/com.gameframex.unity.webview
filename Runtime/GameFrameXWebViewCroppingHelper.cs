@@ -8,8 +8,10 @@ using UnityEngine;
 
 namespace GameFrameX.WebView.Runtime
 {
+    [UnityEngine.Scripting.Preserve]
     public class GameFrameXWebViewCroppingHelper : MonoBehaviour
     {
+        [UnityEngine.Scripting.Preserve]
         void Start()
         {
             _ = typeof(GameFrameX.WebView.Runtime.BaseWebViewManager);
