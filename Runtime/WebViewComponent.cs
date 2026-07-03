@@ -24,6 +24,10 @@ namespace GameFrameX.WebView.Runtime
             ImplementationComponentType = Utility.Assembly.GetType(componentType);
             InterfaceComponentType = typeof(IWebViewManager);
             base.Awake();
+            if (!IsRuntimeComponentReady)
+            {
+                return;
+            }
 
             _webViewManager = GameFrameworkEntry.GetModule<IWebViewManager>();
             if (_webViewManager == null)
@@ -35,6 +39,11 @@ namespace GameFrameX.WebView.Runtime
 
         private void Start()
         {
+            if (_webViewManager == null)
+            {
+                return;
+            }
+
             _webViewManager.Initialize();
         }
 
