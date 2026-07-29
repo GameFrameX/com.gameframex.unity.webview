@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/gameframex/com.gameframex.unity.webview/compare/1.0.2...1.0.3) (2026-07-29)
+
+
+### Bug Fixes
+
+* **dependencies:** 更新依赖项版本以支持新功能 ([ea0e949](https://github.com/gameframex/com.gameframex.unity.webview/commit/ea0e94990857666913cacace795f33fa0ab88c26))
+
 ## [1.0.2](https://github.com/gameframex/com.gameframex.unity.webview/compare/1.0.1...1.0.2) (2026-07-03)
 
 
