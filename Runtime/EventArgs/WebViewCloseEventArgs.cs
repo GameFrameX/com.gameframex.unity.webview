@@ -32,6 +32,7 @@ namespace GameFrameX.WebView.Runtime
         /// 创建WebView消息关闭事件
         /// </summary>
         /// <returns></returns>
+        [UnityEngine.Scripting.Preserve]
         public static WebViewCloseEventArgs Create()
         {
             var eventArgs = ReferencePool.Acquire<WebViewCloseEventArgs>();

@@ -27,6 +27,7 @@ namespace GameFrameX.WebView.Runtime
         /// </summary>
         /// <param name="message">消息内容</param>
         /// <returns></returns>
+        [UnityEngine.Scripting.Preserve]
         public static WebViewReceivedMessageEventArgs Create(string message)
         {
             var eventArgs = ReferencePool.Acquire<WebViewReceivedMessageEventArgs>();
@@ -37,6 +38,7 @@ namespace GameFrameX.WebView.Runtime
         /// <summary>
         /// 事件消息
         /// </summary>
+        [UnityEngine.Scripting.Preserve]
         public string Message { get; private set; }
     }
 }

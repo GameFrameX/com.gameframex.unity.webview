@@ -8,8 +8,9 @@ namespace GameFrameX.WebView.Runtime
     /// WebView组件。
     /// </summary>
     [DisallowMultipleComponent]
-    [AddComponentMenu("Game Framework/WebView")]
+    [AddComponentMenu("GameFrameX/WebView")]
     [UnityEngine.Scripting.Preserve]
+    [GameFrameXAutoComponent(1700)]
     public partial class WebViewComponent : GameFrameworkComponent
     {
         private const int DefaultPriority = 0;
@@ -52,6 +53,7 @@ namespace GameFrameX.WebView.Runtime
         /// 显示WebView
         /// </summary>
         /// <param name="url">加载的url</param>
+        [UnityEngine.Scripting.Preserve]
         public void Show(string url)
         {
             _webViewManager.Show(url);
@@ -60,6 +62,7 @@ namespace GameFrameX.WebView.Runtime
         /// <summary>
         /// 全屏
         /// </summary>
+        [UnityEngine.Scripting.Preserve]
         public void MakeFullScreen()
         {
             _webViewManager.MakeFullScreen();
@@ -69,6 +72,7 @@ namespace GameFrameX.WebView.Runtime
         /// 执行JavaScript
         /// </summary>
         /// <param name="javaScript">javaScript代码</param>
+        [UnityEngine.Scripting.Preserve]
         public void ExecuteJavaScript(string javaScript)
         {
             _webViewManager.ExecuteJavaScript(javaScript);
@@ -77,6 +81,7 @@ namespace GameFrameX.WebView.Runtime
         /// <summary>
         /// 隐藏
         /// </summary>
+        [UnityEngine.Scripting.Preserve]
         public void Hide()
         {
             _webViewManager.Hide();

@@ -16,7 +16,7 @@ namespace GameFrameX.WebView.Runtime
         {
             _ = typeof(GameFrameX.WebView.Runtime.BaseWebViewManager);
             _ = typeof(GameFrameX.WebView.Runtime.IWebViewManager);
-            _ = typeof(GameFrameX.WebView.Runtime.WebViewComponent);
+            _ = typeof(GameFrameX.WebView.Runtime.BaseWebViewManager);
             _ = typeof(GameFrameX.WebView.Runtime.WebViewCloseEventArgs);
             _ = typeof(GameFrameX.WebView.Runtime.WebViewReceivedMessageEventArgs);
         }
