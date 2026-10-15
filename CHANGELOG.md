@@ -1,3 +1,13 @@
+# [2.0.0](https://github.com/gameframex/com.gameframex.unity.webview/compare/1.0.3...2.0.0) (2026-10-15)
+
+
+* feat(module)!: WebView 组件薄入口化 ([d18ef7c](https://github.com/gameframex/com.gameframex.unity.webview/commit/d18ef7c6986d42c6e8931b79337a6d5dc68ffeb1))
+
+
+### BREAKING CHANGES
+
+* WebViewComponent 序列化字段移除；模块契约全接口化。
+
 ## [Unreleased]
 
 ### ⚠ BREAKING CHANGES
